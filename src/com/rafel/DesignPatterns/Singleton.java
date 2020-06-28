@@ -42,7 +42,7 @@ public class Singleton {
 
     /***
      *双重检验锁，线程安全，效率高。
-    private static Singleton singleton;
+    private volatile static Singleton singleton;
 
     private Singleton() {
     }
