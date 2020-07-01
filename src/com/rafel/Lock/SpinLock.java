@@ -1,6 +1,6 @@
-package com.rafel.test;
+package com.rafel.Lock;
 
-import org.jetbrains.annotations.NotNull;
+import com.sun.istack.internal.NotNull;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;

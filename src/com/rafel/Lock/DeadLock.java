@@ -1,4 +1,4 @@
-package com.rafel.test;
+package com.rafel.Lock;
 
 public class DeadLock implements Runnable{
 
