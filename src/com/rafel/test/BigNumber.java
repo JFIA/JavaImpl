@@ -24,7 +24,7 @@ public class BigNumber {
 
         int add = 0;
 
-        while (index1 < A.length()) {
+        while (index1 < sb1.length()) {
             int temp = (sb1.charAt(index1++) - '0') + (sb2.charAt(index2++) - '0') + add;
             res.append(temp % 10);
             add = temp / 10;
